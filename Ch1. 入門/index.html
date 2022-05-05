@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        class Ad {
+    constructor() {
+    }
+    // 實例化物件上的屬性(方法)
+    get = () => {
+        console.log(`hdcms`);
+    }
+
+    // class Ad prototype 屬性裡的一個屬性(方法)，也就是 實例化物件原型上的一個屬性(方法)
+    show() {
+        console.log(`show`);
+    }
+}
+let ad = new Ad();
+console.dir(ad);
+    </script>
+</body>
+</html>
